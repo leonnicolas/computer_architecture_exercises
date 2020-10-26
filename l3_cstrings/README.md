@@ -1,15 +1,19 @@
 # C strings
 Strings in C are terminated with a 0 character.
 
-## Part 1
-Write a function in nasm that takes an array of chars and puts a 0 character behind the first word and returns the number of bytes of the new string.
+## Tasks
 
-The signature of the function is:
+Implement the functions with the following signatures:
+
 ```c
-int64_t first_word(char* str);
+size_t my_strlen(const char* str);
+char *my_strcat(char *dest, const char *src);
+int my_strcmp(const char * s1, const char * s2);
+char *my_strcpy(char *dest, const char *src);
+The signature of the function is:
 ```
 
 ### Compile and run
 ```bash 
-nasm -f elf64 first_word.asm && gcc -Wall -Wextra -pedantic -o trimR wrapper.c first_word.o && ./trimR "one tow three"
+nasm -f elf64 string.asm && gcc -Wall -Wextra -pedantic -o str wrapper.c string.o && ./str hallo du 
 ```

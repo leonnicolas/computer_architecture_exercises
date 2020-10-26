@@ -27,4 +27,4 @@ nasm -f elf64 add.asm && gcc -o add wrapper.c add.o && ./add 1 2
 ```
 
 ## 1 Calling convention Part 2
-That was to easy, write an add function that takes seven 64Bit integers. Now some parameters will be on the stack. You can get them by using the Stackpointer, or with pop. If you use pop, what is the first thing on the stack and why crashes your program when you don't push stuff back on the stack before returning? 
+That was too easy, write an add function that takes seven 64Bit integers. Now some parameters will be on the stack. You can get them by using the Stackpointer, or with pop. If you use pop, what is the first thing on the stack and why crashes your program when you don't push stuff back on the stack before returning? 
