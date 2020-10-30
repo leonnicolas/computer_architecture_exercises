@@ -10,7 +10,7 @@ label:
 and jump to them, even with conditions. You can write a for loop like that.
 
 The c wrapper calls the function written in nasm to calculate the sum of an array.
-Write a function in nasm with the following signiture:
+Write a function in nasm with the following signature:
 
 ```C
 int64_t sum(int64_t len, int64_t arr[]);
