@@ -1,5 +1,5 @@
 # 1 Calling Convention
-Read about the [System V AMD64 calling convention](https://en.wikipedia.org/wiki/X86_calling_conventions#System_V_AMD64_ABI). Great, now you also know most of the registers you can use. They will be enough to for now.
+Read about the [System V AMD64 calling convention](https://en.wikipedia.org/wiki/X86_calling_conventions#System_V_AMD64_ABI). Great, now you also know most of the registers you can use. They will be enough for now.
 
 Read about the structure of a [nasm program](https://cs.lmu.edu/~ray/notes/nasmtutorial/). Keep in mind, that we will only write a single function. To be able to use it in the C wrapper that I wrote and is not your concern, you need to specify it as global:
 
